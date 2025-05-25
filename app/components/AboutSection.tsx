@@ -59,9 +59,7 @@ export default function AboutSection() {
             About Our Team
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Meet the dedicated team behind the BumbleB project, bringing
-            together expertise in robotics, computer vision, and agricultural
-            engineering
+            Meet the dedicated team behind the BumbleB project
           </p>
         </div>
 
@@ -92,18 +90,24 @@ export default function AboutSection() {
                   <a
                     href={member.github}
                     className="text-gray-600 hover:text-yellow-600 transition-colors"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <Github className="h-5 w-5" />
                   </a>
                   <a
                     href={member.linkedin}
                     className="text-gray-600 hover:text-yellow-600 transition-colors"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <Linkedin className="h-5 w-5" />
                   </a>
                   <a
                     href={`mailto:${member.email}`}
                     className="text-gray-600 hover:text-yellow-600 transition-colors"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <Mail className="h-5 w-5" />
                   </a>

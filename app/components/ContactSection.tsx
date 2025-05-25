@@ -94,9 +94,9 @@ export default function ContactSection() {
                   <div>
                     <h4 className="font-semibold">Address</h4>
                     <p className="text-gray-600">
-                      Sri Lanka Institute of Information Technology
+                      Sri Lanka Institute of Information Technology,
                       <br />
-                      New Kandy Road
+                      New Kandy Road,
                       <br />
                       Malabe
                     </p>

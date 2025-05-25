@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Presentation, Download, Eye } from "lucide-react";
-import { getDirectDownloadUrl } from "@/utils/commonUtils";
+import { getDirectDownloadUrl } from "@/lib/utils";
 
 const presentations = [
   {
