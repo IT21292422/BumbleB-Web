@@ -37,8 +37,7 @@ export default function DemoSection() {
             </div>
             <div className="mt-4 text-center">
               <p className="text-sm text-gray-500">
-                Use your mouse to rotate, zoom, and explore the rover's
-                components
+                Use your mouse to rotate and explore the rover
               </p>
             </div>
           </div>

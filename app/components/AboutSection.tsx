@@ -10,39 +10,64 @@ import { Github, Linkedin, Mail, GraduationCap } from "lucide-react";
 const teamMembers = [
   {
     id: 1,
+    name: "Dr. Nathali Silva",
+    role: "Supervisor",
+    education: "",
+    image:
+      "https://eng.sjp.ac.lk/computereng/wp-content/uploads/sites/3/2023/07/dr.-Nathali-300x300.png",
+    github: "",
+    linkedin: "https://lk.linkedin.com/in/bhagya-nathali-silva",
+    email: "nathali.s@sliit.lk",
+  },
+  {
+    id: 2,
+    name: "Dr. Kapila Dissanayaka",
+    role: "Co-supervisor",
+    education: "",
+    image: "https://static.sliit.lk/profile/kapilad-1710948184.jpg",
+    github: "",
+    linkedin: "https://www.linkedin.com/in/kapila-d-dissanayaka/",
+    email: "kapila.d@sliit.lk",
+  },
+  {
+    id: 3,
     name: "Rusira Thamuditha",
     role: "Group Leader",
-    education: "BSc in Information Technology",
+    education:
+      "BSc in Information Technology (Specializing in Software Engineering)",
     image: "/assets/images/team/rusira.png",
     github: "https://github.com/it21294198",
     linkedin: "https://www.linkedin.com/in/rusira-thamuditha",
     email: "thamudithaaa@gmail.com",
   },
   {
-    id: 2,
+    id: 4,
     name: "Chathupa Wickramarathne",
     role: "Group Member",
-    education: "BSc in Information Technology",
+    education:
+      "BSc in Information Technology (Specializing in Software Engineering)",
     image: "/assets/images/team/chathupa.jpg",
     github: "https://github.com/chatwick",
     linkedin: "https://www.linkedin.com/in/chathupa-wickramarathne",
     email: "c.wick400@gmail.com",
   },
   {
-    id: 3,
+    id: 5,
     name: "Chamath Wickrama Arachchi",
     role: "Group Member",
-    education: "BSc in Information Technology",
+    education:
+      "BSc in Information Technology (Specializing in Software Engineering)",
     image: "/assets/images/team/chamath.jpg",
     github: "https://github.com/chamath-shanaka",
     linkedin: "https://www.linkedin.com/in/chamath-wickrama-arachchi",
     email: "chamathshanaka19@gmail.com",
   },
   {
-    id: 4,
+    id: 6,
     name: "Akmal Alavi",
     role: "Group Member",
-    education: "BSc in Information Technology",
+    education:
+      "BSc in Information Technology (Specializing in Software Engineering)",
     image: "/assets/images/team/akmal.png",
     github: "https://github.com/iamakmal",
     linkedin: "https://www.linkedin.com/in/akmal-alavi/",
@@ -78,23 +103,27 @@ export default function AboutSection() {
                 <CardDescription className="text-yellow-600 font-medium">
                   {member.role}
                 </CardDescription>
-                <div className="flex items-center justify-center gap-2 mt-2">
-                  <GraduationCap className="h-4 w-4 text-gray-500" />
-                  <span className="text-sm text-gray-600">
-                    {member.education}
-                  </span>
-                </div>
+                {member.education && (
+                  <div className="flex items-start justify-center gap-2 mt-2 flex-wrap">
+                    <GraduationCap className="h-5 w-5 text-gray-500" />
+                    <span className="text-sm text-gray-600">
+                      {member.education}
+                    </span>
+                  </div>
+                )}
               </CardHeader>
               <CardContent>
                 <div className="flex justify-center gap-4">
-                  <a
-                    href={member.github}
-                    className="text-gray-600 hover:text-yellow-600 transition-colors"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Github className="h-5 w-5" />
-                  </a>
+                  {member.github && (
+                    <a
+                      href={member.github}
+                      className="text-gray-600 hover:text-yellow-600 transition-colors"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Github className="h-5 w-5" />
+                    </a>
+                  )}
                   <a
                     href={member.linkedin}
                     className="text-gray-600 hover:text-yellow-600 transition-colors"
