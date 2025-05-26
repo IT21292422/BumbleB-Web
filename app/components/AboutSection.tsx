@@ -16,7 +16,7 @@ const teamMembers = [
     image:
       "https://eng.sjp.ac.lk/computereng/wp-content/uploads/sites/3/2023/07/dr.-Nathali-300x300.png",
     github: "",
-    linkedin: "https://lk.linkedin.com/in/bhagya-nathali-silva",
+    linkedin: "https://www.linkedin.com/in/bhagya-nathali-silva-8ab73524/",
     email: "nathali.s@sliit.lk",
   },
   {
@@ -37,7 +37,7 @@ const teamMembers = [
       "BSc in Information Technology (Specializing in Software Engineering)",
     image: "/assets/images/team/rusira.png",
     github: "https://github.com/it21294198",
-    linkedin: "https://www.linkedin.com/in/rusira-thamuditha",
+    linkedin: "https://www.linkedin.com/in/rusira-thamuditha-752230216/",
     email: "thamudithaaa@gmail.com",
   },
   {
@@ -48,7 +48,7 @@ const teamMembers = [
       "BSc in Information Technology (Specializing in Software Engineering)",
     image: "/assets/images/team/chathupa.jpg",
     github: "https://github.com/chatwick",
-    linkedin: "https://www.linkedin.com/in/chathupa-wickramarathne",
+    linkedin: "https://www.linkedin.com/in/chathupa-wickramarathne-b17486218/",
     email: "c.wick400@gmail.com",
   },
   {
@@ -59,7 +59,8 @@ const teamMembers = [
       "BSc in Information Technology (Specializing in Software Engineering)",
     image: "/assets/images/team/chamath.jpg",
     github: "https://github.com/chamath-shanaka",
-    linkedin: "https://www.linkedin.com/in/chamath-wickrama-arachchi",
+    linkedin:
+      "https://www.linkedin.com/in/chamath-wickrama-arachchi-630938217/",
     email: "chamathshanaka19@gmail.com",
   },
   {

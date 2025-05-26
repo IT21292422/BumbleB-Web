@@ -20,7 +20,7 @@ const milestones = [
   },
   {
     id: 2,
-    title: "Progress Presenation - 1",
+    title: "Progress Presentation - 1",
     description:
       "Evaluation of 50% completion of the proposed solution by a panel of judges.",
     date: "4th December 2024",

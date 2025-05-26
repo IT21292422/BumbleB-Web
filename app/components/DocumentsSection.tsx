@@ -79,6 +79,26 @@ const documents = [
     previewUrl:
       "https://drive.google.com/file/d/1hkjNAEVrG4Xaxh-9xhd9Bu_c1EsL2kVX/view?usp=sharing",
   },
+  {
+    id: 8,
+    title: "Chathupa Final Project Report",
+    type: "PDF",
+    category: "Final",
+    downloadUrl:
+      "https://drive.google.com/file/d/1edHmZ1bq40MsjN4VCmBjx35xsG2HUuA_/view?usp=sharing",
+    previewUrl:
+      "https://drive.google.com/file/d/1edHmZ1bq40MsjN4VCmBjx35xsG2HUuA_/view?usp=sharing",
+  },
+  {
+    id: 9,
+    title: "Rusira Final Project Report",
+    type: "PDF",
+    category: "Final",
+    downloadUrl:
+      "https://drive.google.com/file/d/1FVeaO8YaJnotdwXyxm7gQ4Fu4BfRN67T/view?usp=sharing",
+    previewUrl:
+      "https://drive.google.com/file/d/1FVeaO8YaJnotdwXyxm7gQ4Fu4BfRN67T/view?usp=sharing",
+  },
 ];
 
 const categories = ["All", "Documentation", "Proposal", "Final"];
