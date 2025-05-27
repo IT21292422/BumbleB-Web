@@ -82,7 +82,7 @@ export default function DomainSection() {
                     <h4 className="font-semibold mb-2">Pollination Methods</h4>
                     <p className="text-gray-600">
                       Strawberry pollination in Sri Lanka depends on wind,
-                      insects, and manual labor.
+                      insects, and manual labor. <a href="#references">[1]</a>
                     </p>
                   </div>
                   <div>
@@ -91,7 +91,8 @@ export default function DomainSection() {
                     </h4>
                     <p className="text-gray-600">
                       Self-pollination leads to poor fruit set.
-                      Cross-pollination improves size and shape.
+                      Cross-pollination improves size and shape.{" "}
+                      <a href="#references">[1]</a>
                     </p>
                   </div>
                   <div>
@@ -101,14 +102,16 @@ export default function DomainSection() {
                     <p className="text-gray-600">
                       Bee populations are declining due to pesticides and
                       climate change. Hand Pollination is effective but
-                      time-consuming and expensive.
+                      time-consuming and expensive.{" "}
+                      <a href="#references">[2]</a>
                     </p>
                   </div>
                   <div>
                     <h4 className="font-semibold mb-2">Robotic Potential</h4>
                     <p className="text-gray-600">
                       Prior research shows robots can pollinate effectively in
-                      greenhouses, but lack flexibility for open fields.
+                      greenhouses, but lack flexibility for open fields.{" "}
+                      <a href="#references">[3]</a>
                     </p>
                   </div>
                 </div>
@@ -136,7 +139,7 @@ export default function DomainSection() {
                     <p className="text-gray-600">
                       Existing robotic pollination focuses on controlled
                       environments (Plant Factories with Artificial Lighting -
-                      PFALs).
+                      PFALs). <a href="#references">[3]</a>
                     </p>
                   </div>
                   <div className="border-l-4 border-yellow-500 pl-4">
