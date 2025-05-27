@@ -99,6 +99,16 @@ const documents = [
     previewUrl:
       "https://drive.google.com/file/d/1FVeaO8YaJnotdwXyxm7gQ4Fu4BfRN67T/view?usp=sharing",
   },
+  {
+    id: 10,
+    title: "Chamath Final Project Report",
+    type: "PDF",
+    category: "Final",
+    downloadUrl:
+      "https://drive.google.com/file/d/1UgJnq4Z7zfpl157JqaKS4qLYt1_ACT18/view?usp=sharing",
+    previewUrl:
+      "https://drive.google.com/file/d/1UgJnq4Z7zfpl157JqaKS4qLYt1_ACT18/view?usp=sharing",
+  },
 ];
 
 const categories = ["All", "Documentation", "Proposal", "Final"];
