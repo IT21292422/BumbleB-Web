@@ -79,7 +79,7 @@ export default function ReferencesSection() {
               {filteredReferences.map((ref) => (
                 <li key={ref.id} className="flex gap-4">
                   <div className="flex-1 min-w-0">
-                    <p className="text-gray-800 leading-relaxed mb-2 break-words">
+                    <p className="text-gray-800 leading-relaxed mb-2 break-words text-justify">
                       {ref.citation.includes("[Online]. Available:") ? (
                         <>
                           {ref.citation.split("[Online]. Available:")[0]}
