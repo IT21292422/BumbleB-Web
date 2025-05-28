@@ -75,11 +75,31 @@ export default function ReferencesSection() {
           </CardHeader>
           <CardContent>
             <ol className="space-y-6">
+              {" "}
               {filteredReferences.map((ref) => (
                 <li key={ref.id} className="flex gap-4">
-                  <div className="flex-1">
-                    <p className="text-gray-800 leading-relaxed mb-2">
-                      {ref.citation}
+                  <div className="flex-1 min-w-0">
+                    <p className="text-gray-800 leading-relaxed mb-2 break-words">
+                      {ref.citation.includes("[Online]. Available:") ? (
+                        <>
+                          {ref.citation.split("[Online]. Available:")[0]}
+                          [Online]. Available:{" "}
+                          <a
+                            href={ref.citation
+                              .split("[Online]. Available:")[1]
+                              .trim()}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-yellow-600 hover:underline break-all"
+                          >
+                            {ref.citation
+                              .split("[Online]. Available:")[1]
+                              .trim()}
+                          </a>
+                        </>
+                      ) : (
+                        ref.citation
+                      )}
                     </p>
                   </div>
                 </li>
