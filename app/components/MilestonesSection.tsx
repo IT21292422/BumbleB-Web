@@ -41,7 +41,7 @@ const milestones = [
     title: "Final Presentation & Viva",
     description: "Final evaluation of the completed product.",
     date: "27th May 2025",
-    status: "in-progress",
+    status: "completed",
     details: ["Marks Allocated - 20%"],
   },
 ];

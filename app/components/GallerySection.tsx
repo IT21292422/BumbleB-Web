@@ -30,6 +30,16 @@ const galleryImages = [
   },
   {
     id: 2,
+    src: "/assets/images/rover-field-image.png",
+    alt: "Rover Field Image",
+    title: "Rover Field Image",
+    description:
+      "The strawberry pollination rover, BumbleB, in action during field testing",
+    category: "Testing",
+    tags: ["rover", "field", "testing"],
+  },
+  {
+    id: 3,
     src: "/assets/images/main-controller.png",
     alt: "Main Controller",
     title: "Main Controller",
@@ -39,7 +49,7 @@ const galleryImages = [
     tags: ["rover", "esp32"],
   },
   {
-    id: 3,
+    id: 4,
     src: "/assets/images/3d-arm.png",
     alt: "3D Robotic Arm",
     title: "3D Robotic Arm",
@@ -49,7 +59,7 @@ const galleryImages = [
     tags: ["rover", "3d", "arm"],
   },
   {
-    id: 4,
+    id: 5,
     src: "/assets/images/pollination-brush.png",
     alt: "Pollination Brush",
     title: "Pollination Brush",
@@ -58,7 +68,7 @@ const galleryImages = [
     tags: ["rover", "pollination", "brush"],
   },
   {
-    id: 5,
+    id: 6,
     src: "/assets/images/strawberry-field.png",
     alt: "Strawberry Field",
     title: "Strawberry Field",
@@ -67,7 +77,7 @@ const galleryImages = [
     tags: ["rover", "strawberry", "field"],
   },
   {
-    id: 6,
+    id: 7,
     src: "/assets/images/rover-integrating.png",
     alt: "Rover Integrating",
     title: "Rover Integrating",
@@ -76,7 +86,7 @@ const galleryImages = [
     tags: ["rover", "integrating"],
   },
   {
-    id: 7,
+    id: 8,
     src: "/assets/images/rover-testing.png",
     alt: "Rover Field Testing",
     title: "Rover Field Testing",
@@ -85,7 +95,7 @@ const galleryImages = [
     tags: ["rover", "testing"],
   },
   {
-    id: 8,
+    id: 9,
     src: "/assets/images/mobile-app.png",
     alt: "Mobile App",
     title: "Mobile App",
@@ -95,7 +105,7 @@ const galleryImages = [
     tags: ["mobile", "app"],
   },
   {
-    id: 9,
+    id: 10,
     src: "/assets/images/home.jpg",
     alt: "Home Page",
     title: "Home Page",
@@ -105,7 +115,7 @@ const galleryImages = [
     tags: ["mobile", "home", "page"],
   },
   {
-    id: 10,
+    id: 11,
     src: "/assets/images/3d-model.jpg",
     alt: "3D Model Visualiztion",
     title: "3D Model Visualization",
@@ -115,7 +125,7 @@ const galleryImages = [
     tags: ["mobile", "3D", "visualization"],
   },
   {
-    id: 11,
+    id: 12,
     src: "/assets/images/analytics.png",
     alt: "Analytics Page",
     title: "Analytics Page",
@@ -125,7 +135,7 @@ const galleryImages = [
     tags: ["mobile", "analytics", "weekly", "monthly"],
   },
   {
-    id: 12,
+    id: 13,
     src: "/assets/images/images.png",
     alt: "Images Page",
     title: "Images Page",
@@ -135,7 +145,7 @@ const galleryImages = [
     tags: ["mobile", "analytics", "images", "temperature", "humidity"],
   },
   {
-    id: 13,
+    id: 14,
     src: "/assets/images/pollination-timeline.png",
     alt: "Pollination Timeline Page",
     title: "Pollination Timeline Page",
@@ -145,7 +155,7 @@ const galleryImages = [
     tags: ["mobile", "timeline"],
   },
   {
-    id: 14,
+    id: 15,
     src: "/assets/images/profile.png",
     alt: "Profile Page",
     title: "Profile Page",

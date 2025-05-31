@@ -34,6 +34,15 @@ const presentations = [
     previewUrl:
       "https://docs.google.com/presentation/d/1Qx0XnqVSufPqOWyNmF2hW5R20pQvrtj8/edit?usp=sharing&ouid=118128141128462587153&rtpof=true&sd=true",
   },
+  {
+    id: 4,
+    title: "Final Presentation",
+    type: "PPTX",
+    downloadUrl:
+      "https://docs.google.com/presentation/d/1OM4ypW3s7GDKkOicWVAMmv5ifvmik1g9/edit?usp=sharing&ouid=118128141128462587153&rtpof=true&sd=true",
+    previewUrl:
+      "https://docs.google.com/presentation/d/1OM4ypW3s7GDKkOicWVAMmv5ifvmik1g9/edit?usp=sharing&ouid=118128141128462587153&rtpof=true&sd=true",
+  },
 ];
 
 export default function PresentationsSection() {
@@ -50,7 +59,7 @@ export default function PresentationsSection() {
         </div>
 
         {/* Documents Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+        <div className="grid md:grid-cols-2 gap-6 mb-8">
           {presentations.map((presentation) => (
             <Card
               key={presentation.id}

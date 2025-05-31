@@ -71,6 +71,16 @@ const documents = [
   },
   {
     id: 7,
+    title: "Group Final Project Report",
+    type: "PDF",
+    category: "Final",
+    downloadUrl:
+      "https://drive.google.com/file/d/1w20cjPMMxgHcYcINFWfJlLh2Yhp9zZNz/view?usp=sharing",
+    previewUrl:
+      "https://drive.google.com/file/d/1w20cjPMMxgHcYcINFWfJlLh2Yhp9zZNz/view?usp=sharing",
+  },
+  {
+    id: 8,
     title: "Akmal Final Project Report",
     type: "PDF",
     category: "Final",
@@ -80,7 +90,7 @@ const documents = [
       "https://drive.google.com/file/d/1hkjNAEVrG4Xaxh-9xhd9Bu_c1EsL2kVX/view?usp=sharing",
   },
   {
-    id: 8,
+    id: 9,
     title: "Chathupa Final Project Report",
     type: "PDF",
     category: "Final",
@@ -90,7 +100,7 @@ const documents = [
       "https://drive.google.com/file/d/1edHmZ1bq40MsjN4VCmBjx35xsG2HUuA_/view?usp=sharing",
   },
   {
-    id: 9,
+    id: 10,
     title: "Rusira Final Project Report",
     type: "PDF",
     category: "Final",
@@ -100,7 +110,7 @@ const documents = [
       "https://drive.google.com/file/d/1FVeaO8YaJnotdwXyxm7gQ4Fu4BfRN67T/view?usp=sharing",
   },
   {
-    id: 10,
+    id: 11,
     title: "Chamath Final Project Report",
     type: "PDF",
     category: "Final",

@@ -41,7 +41,7 @@ const componentContributions = [
       avatar: "/assets/images/team/chamath.jpg",
     },
     description:
-      "Autonomous navigation and path planning system for greenhouse environments",
+      "Developed a custom asynchronous scheduler to handle and distribute the request traffic so that the services don’t get overloaded",
   },
   {
     id: 4,
