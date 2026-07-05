@@ -34,7 +34,7 @@ export default function ContactSection() {
   };
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     setFormData({
       ...formData,
@@ -73,7 +73,9 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-semibold">Email</h4>
-                    <p className="text-gray-600">thamudithaaa@gmail.com</p>
+                    <p className="text-gray-600">
+                      2001.rusira.thamuditha@gmail.com
+                    </p>
                   </div>
                 </div>
 
@@ -94,11 +96,9 @@ export default function ContactSection() {
                   <div>
                     <h4 className="font-semibold">Address</h4>
                     <p className="text-gray-600">
-                      Sri Lanka Institute of Information Technology,
+                      Wewa siri, Lunuwila,
                       <br />
-                      New Kandy Road,
-                      <br />
-                      Malabe
+                      Sri Lanka
                     </p>
                   </div>
                 </div>

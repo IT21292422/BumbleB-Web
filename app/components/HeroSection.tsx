@@ -39,7 +39,7 @@ export default function HeroSection() {
           <p className="text-xl md:text-3xl text-gray-100 my-2 capitalize drop-shadow-md">
             IoT-enabled robotic pollination for enhanced strawberry yield
           </p>
-          <p className="text-sm md:text-xl text-gray-100 my-2">24-25J-160</p>
+          {/* <p className="text-sm md:text-xl text-gray-100 my-2">24-25J-160</p> */}
           <p className="text-lg text-gray-200 mb-8 max-w-3xl mx-auto drop-shadow-md">
             BumbleB is an innovative autonomous rover designed to enhance
             strawberry crop yields through precision pollination technology. Our

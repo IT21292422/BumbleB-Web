@@ -11,6 +11,7 @@ import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
 import ContributionsSection from "./components/ContributionsSection";
 import ReferencesSection from "./components/ReferencesSection";
+import PublicationsSection from "./components/PublicationsSection";
 
 export default function Home() {
   return (
@@ -19,11 +20,12 @@ export default function Home() {
       <main>
         <HeroSection />
         <DemoSection />
+        <PublicationsSection />
         <GallerySection />
         <DomainSection />
-        <MilestonesSection />
-        <DocumentsSection />
-        <PresentationsSection />
+        {/* <MilestonesSection /> */}
+        {/* <DocumentsSection /> */}
+        {/* <PresentationsSection /> */}
         <ContributionsSection />
         <AboutSection />
         <ContactSection />
