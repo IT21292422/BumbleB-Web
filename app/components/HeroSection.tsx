@@ -21,7 +21,7 @@ export default function HeroSection() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url('/placeholder.svg?height=1080&width=1920')",
+            backgroundImage: "url('/assets/images/strawberry-field.png')",
             filter: "blur(8px) brightness(0.3)",
             transform: "scale(1.1)",
           }}
