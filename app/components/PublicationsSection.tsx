@@ -1,9 +1,12 @@
 "use client";
 
-import { ExternalLink, Download } from "lucide-react";
+import { useState } from "react";
+import { ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function PublicationsSection() {
+  const [expandedAbstracts, setExpandedAbstracts] = useState<number[]>([]);
+
   const publications = [
     {
       id: 1,
@@ -35,6 +38,22 @@ export default function PublicationsSection() {
         "Strawberries, a high-value crop with growing demand, face increasing challenges due to labour shortages, declining natural pollinator populations, and inconsistent manual pollination. To address these obstacles, this paper introduces an IoT-enabled robotic system designed to automate strawberry pollination with minimal human intervention. The system consists of a mobile rover with a three-dimensional robotic arm for precise flower detection and positioning, and a high-performance server to handle image processing and task coordination. The rover uses an event-driven software architecture that enables responsive, real-time behaviour and keeps power and memory usage to a minimum, which is crucial to field-deployable robotics. The onboard camera modules capture images of the strawberry bed and send them to an image processing server, which returns flower coordinates. T he arm then performs targeted pollination based on the flower positions. Communication between system components is asynchronous and modular to allow scalable integration and future system extensions. Preliminary field tests conducted in open-field raised beds demonstrate t he system's functional viability and reliable operational behaviour under real-world conditions. Designed with affordability and practicality in mind, this work contributes a novel and cost-effective approach to precision agriculture, particularly for small and medium farms where traditional pollination methods are either unreliable, labour-intensive, or too costly to sustain.",
     },
   ];
+
+  const toggleAbstract = (id: number) => {
+    setExpandedAbstracts((current) =>
+      current.includes(id)
+        ? current.filter((abstractId) => abstractId !== id)
+        : [...current, id],
+    );
+  };
+
+  const getAbstractPreview = (abstract: string) => {
+    const previewLength = 300;
+
+    return abstract.length > previewLength
+      ? `${abstract.slice(0, previewLength).trimEnd()}...`
+      : abstract;
+  };
 
   return (
     <section
@@ -113,8 +132,22 @@ export default function PublicationsSection() {
               <div className="px-6 py-4">
                 <h4 className="font-semibold text-gray-700 mb-2">Abstract:</h4>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  {pub.abstract}
+                  {expandedAbstracts.includes(pub.id)
+                    ? pub.abstract
+                    : getAbstractPreview(pub.abstract)}
                 </p>
+                {pub.abstract.length > 300 && (
+                  <Button
+                    type="button"
+                    variant="link"
+                    className="mt-2 h-auto p-0 text-sm font-medium text-yellow-700 hover:text-yellow-800"
+                    onClick={() => toggleAbstract(pub.id)}
+                  >
+                    {expandedAbstracts.includes(pub.id)
+                      ? "Show less"
+                      : "Show more"}
+                  </Button>
+                )}
               </div>
 
               {/* Action Buttons */}
