@@ -28,7 +28,7 @@ export default function PublicationsSection() {
       id: 2,
       title: "Towards Autonomous Strawberry Pollination via IoT and Robotics",
       authors:
-        "Rusira Thamuditha Karunarathna, Chathupa Wickramarathne , Mohamed Alavi Mohamed Akmal, Chamath Shanaka Wickrama Arachchi, Kapila Dissanayaka and Nathali Silva",
+        "Rusira Thamuditha Karunarathna, Chathupa Wickramarathne , Mohamed Alavi Mohamed Akmal, Chamath Shanaka Wickrama Arachchi, Kapila Dissanayaka and Bhagya Nathali Silva",
       type: "conference",
       name: "2025 7th International Conference on Advancements in Computing (ICAC)",
       year: 2025,

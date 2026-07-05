@@ -77,10 +77,10 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-300">
               <li>
                 <a
-                  href="#presentations"
+                  href="#publications"
                   className="hover:text-yellow-400 transition-colors"
                 >
-                  Presentations
+                  Publications
                 </a>
               </li>
               <li>
