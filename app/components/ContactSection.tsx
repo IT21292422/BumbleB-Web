@@ -24,13 +24,32 @@ export default function ContactSection() {
     message: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log("Form submitted:", formData);
-    // Reset form
+    console.log("Form data to be sent:", formData); // Log the form data before sending
+    const response = await fetch("/api/send-email", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        name: formData.name,
+        email: formData.email,
+        subject: formData.subject,
+        message: formData.message,
+      }),
+    });
+
+    const data = await response.json();
+    if (response.ok) {
+      alert("Thank you for your message! We will get back to you soon.");
+      console.log("Email sent successfully:", data);
+    } else {
+      alert("There was an error sending your message. Please try again later.");
+      console.error("Error sending email:", data.error);
+    }
+
     setFormData({ name: "", email: "", subject: "", message: "" });
-    alert("Thank you for your message! We will get back to you soon.");
   };
 
   const handleChange = (
